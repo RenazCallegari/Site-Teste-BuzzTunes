@@ -1,0 +1,114 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(320deg, #141414, black);
+}
+
+.leftcorner-tabs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    ackground-color: rgba(0, 0, 255, 0.514);
+    width: fit-content;
+    height: 870px
+}
+
+
+.container-corner-ltop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #181818;
+    border: solid 1px;
+    border-color: #242424;
+    border-radius: 15px;
+    width: 300px;
+    height: 190px;
+    box-shadow: 0 0px 20px;
+}
+
+.container-corner-lbot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #181818;
+    border: solid 1px;
+    border-color: #242424;
+    border-radius: 15px;
+    width: 300px;
+    height: 650px;
+    box-shadow: 0 0px 20px;
+}
+
+.corner-btns{
+    width: 290px;
+    height: 50px;
+    background-color: #2d2c2c;
+    border: solid 1px;
+    border-color: #3b3a3a;
+    border-radius: 15px;
+    transition: all 0.5s;
+    color:#fcc41c;
+    font-family: 'Comfortaa', cursive;
+}
+
+.corner-btns:hover{
+    background-color: #3b3b3b;
+    cursor: pointer;
+}
+
+
+.fa-gear{
+    transform: translate(-39px);
+}
+.fa-house{
+    transform: translate(-50px);
+}
+.fa-magnifying-glass{
+    transform: translate(-43px);
+}
+.corner-btns-ltopdiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 290px;
+    height: 95%;
+    ackground-color: rgba(255, 0, 106, 0.082);
+}
+
+.corner-library{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fcc41c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+}
+
+.corner-library-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    ackground-color:rgba(0, 255, 255, 0.363);
+    width: 250px;
+    height: 60px;
+    
+}
+
+.fa-bars{
+    color: #fcc41c
+}
