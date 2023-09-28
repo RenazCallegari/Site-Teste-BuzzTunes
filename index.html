@@ -2,63 +2,188 @@
 <html lang="pt-BR">
 <head>
     <title>BuzzTunes</title>
-    
-    <link rel="shortcut icon" href="ico/spotifly.ico" type="image/x-icon">
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- estilização  -->
     <link rel="stylesheet" href="style.css">
-    
-    <script src="scripts.js"></script>
-    <script src="https://kit.fontawesome.com/727b90fd84.js" crossorigin="anonymous"></script>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <!-- icones box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="leftcorner-tabs">
-        <div class="container-corner-ltop">  
-            <div class="corner-btns-ltopdiv">
-                <button id="btn-inicio" class="corner-btns">
-                    <i class="fa-solid fa-house fa-xl"></i>
-                    Ínicio
-                </button>
-                <button class="corner-btns">
-                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-                    Buscar
-                </button>
-                <button class="corner-btns">
-                    <i class="fa-solid fa-gear fa-xl"></i>
-                    Opções
-                </button>
+    <div class="page">
+        <!-- left navbar -->
+        <nav class="left-menu">
+            <div class="main-tab">
+                <i class='bx bx-home-alt' id="expand-icon"></i>
+                <i class='bx bx-search' id="expand-icon"></i>
             </div>
-        </div>
-       
-        <div class="container-corner-lbot">
-            <div style="display: flex; width: 250px; height: 610px; ">
-                <div class="corner-library-div">
-                    <div class="corner-library-ico">
-                        <i class="fa-solid fa-bars fa-2xl"></i>
+            <div class="lb-tab">
+                <i class='bx bx-layer' id="expand-icon"></i>
+            </div>
+        </nav>
+
+        <!-- main page -->
+        <section class="mainpage-container1">
+            <div class="mainpage-container2-gradient">
+            <div class="greetings-container">
+                <h1 class="greetings" id="greetings">Lorem.</h1>    
+            </div>
+            <!-- user icon -->
+            <div class="usericon-container">
+                <div class="usericon-img">
+                    <img src="images/default.png">
+                </div>
+            </div>
+            <!-- recent musics -->
+            <div class="recentmusics-container" id="rmusics">
+                <!-- music 1 -->
+                <div class="rmusicbox">
+                    <div class="rmusicbox-img">
+                    <img src="images/default.png">
                     </div>
-                    <div style="display: flex; width: 220px; height: 40px; flex-direction: row; justify-content: center; ; ">
-                        <span class="corner-library">Sua Biblioteca</span>
+                    <span id="rmusic-name">Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="rmusicbox">
+                    <div class="rmusicbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <span id="rmusic-name">Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="rmusicbox">
+                    <div class="rmusicbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <span id="rmusic-name">Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="rmusicbox">
+                    <div class="rmusicbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <span id="rmusic-name">Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="rmusicbox">
+                    <div class="rmusicbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <span id="rmusic-name">Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="rmusicbox">
+                    <div class="rmusicbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <span id="rmusic-name">Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <!-- other musics -->
+            <div class="othermusics-container">
+                <div class="omusicsbox">
+                    <div class="omusicsbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <div class="omusicsbox-desc">
+                    <span class="music-name">Lorem ipsum dolor sit amet.</span>
+                    <span class="music-date">00 de tal</span>
+                    </div>
+                </div>
+                <div class="omusicsbox">
+                    <div class="omusicsbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <div class="omusicsbox-desc">
+                    <span class="music-name">Lorem ipsum dolor sit amet.</span>
+                    <span class="music-date">00 de tal</span>
+                    </div>
+                </div>
+                <div class="omusicsbox">
+                    <div class="omusicsbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <div class="omusicsbox-desc">
+                    <span class="music-name">Lorem ipsum dolor sit amet.</span>
+                    <span class="music-date">00 de tal</span>
+                    </div>
+                </div>
+                <div class="omusicsbox">
+                    <div class="omusicsbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <div class="omusicsbox-desc">
+                    <span class="music-name">Lorem ipsum dolor sit amet.</span>
+                    <span class="music-date">00 de tal</span>
+                    </div>
+                </div>
+                <div class="omusicsbox">
+                    <div class="omusicsbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <div class="omusicsbox-desc">
+                    <span class="music-name">Lorem ipsum dolor sit amet.</span>
+                    <span class="music-date">00 de tal</span>
+                    </div>
+                </div>
+                <div class="omusicsbox">
+                    <div class="omusicsbox-img">
+                    <img src="images/default.png">
+                    </div>
+                    <div class="omusicsbox-desc">
+                    <span class="music-name">Lorem ipsum dolor sit amet.</span>
+                    <span class="music-date">00 de tal</span>
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+        </section>
     </div>
+    <!-- footer audio player -->
+    <footer class="footer">
+        <!-- music display -->
+        <div class="music-display-container">
+            <div class="music-img-container">
+                <div class="music-img">
+                    <img src="images/default.png" id="cover" onclick="abrirImagem()">
+                </div>
+            </div>
+            <div class="music-titles-container">
+                <div class="title-container">
+                    <p class="music-name" id="music-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+                <div class="artist-container">
+                    <p class="artist" id="music-artist">Lorem, ipsum.</p>
+                </div> 
+            </div>
+        </div>
+        <!-- music player -->
+        <div class="footer-player-container">
+            <div class="footer-player-btns">
+                <i class='bx bx-shuffle' id="#"></i>
+                <i class='bx bx-skip-next bx-flip-horizontal' id="prev"></i>
+                <i class='bx bx-play-circle' id="play"></i>
+                <i class='bx bx-skip-next' id="next"></i>
+                <i class='bx bx-repeat' id="#"></i>
+            </div>
+            <div class="footer-player-progress" id="player-progress">
+                <div class="progress" id="progress">
+                    <div class="progressM" id="progressM"></div>
+                </div>
+                <div class="music-duration">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+        </div>
+        <!-- music volume control -->
+        <div class="music-vol-container">
+
+        </div>
+    </footer>
+
+    
 
 
-    <script>
-        
-        var btnInicio = document.getElementById('btn-inicio');
-
-        btnInicio.addEventListener('click', function(){
-
-            window.location.href = 'index.html';
-        });
-    </script>
-
+    <!-- custom scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
